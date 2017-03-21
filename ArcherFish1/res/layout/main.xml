@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" 
+    android:background="@drawable/bg1" 
+    android:layout_height="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <TextView 
+        android:id="@+id/text" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:text="User profile" 
+        android:textSize="24.5sp" 
+        android:layout_gravity="center"/>
+    <Button 
+        android:layout_below="@id/text" 
+        android:text="Create New" 
+        android:background="@drawable/bk3" 
+        android:id="@+id/button1" 
+        android:layout_gravity="center" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="50dp">
+    </Button>
+    <Button 
+        android:layout_below="@id/button1" 
+        android:text="Load" 
+        android:id="@+id/button2" 
+        android:background="@drawable/bk3" 
+        android:layout_gravity="center" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+    </Button>
+    <Button 
+        android:layout_below="@id/button2" 
+        android:text="Delete All" 
+        android:id="@+id/button3" 
+        android:background="@drawable/bk3" 
+        android:layout_gravity="center" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+    </Button>
+    <Button 
+        android:layout_below="@id/button3" 
+        android:text="Exit" 
+        android:id="@+id/button4" 
+        android:layout_gravity="center" 
+        android:background="@drawable/bk3" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+    </Button>
+</RelativeLayout>
+
+
+
+
+
+
+

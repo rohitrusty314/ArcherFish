@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg1" >
+    
+    
+    
+     <Button
+        android:id="@+id/btnResume"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/bk3"
+        android:text="Resume Game" />
+     
+         <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/bk3"
+        android:text="New Game" />
+         
+                 <GridLayout
+                     android:id="@+id/gridLayout1"
+                     android:layout_width="314dp"
+                     android:layout_height="187dp" >
+
+                     <Button
+                         android:id="@+id/btnQuit"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_column="1"
+                         android:layout_columnSpan="2"
+                         android:layout_marginLeft="20dp"
+                         android:layout_row="0"
+                         android:background="@drawable/bk3"
+                         android:text="Quit" />
+
+                     <Space
+                         android:layout_width="30dp"
+                         android:layout_height="1dp"
+                         android:layout_column="2"
+                         android:layout_row="0" />
+
+                     <Space
+                         android:layout_width="82dp"
+                         android:layout_height="1dp"
+                         android:layout_column="0"
+                         android:layout_row="0" />
+
+                     <Space
+                         android:layout_width="17dp"
+                         android:layout_height="1dp"
+                         android:layout_column="1"
+                         android:layout_row="0" />
+                 </GridLayout>
+
+</LinearLayout>

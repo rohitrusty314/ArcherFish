@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <array name="difficulty">
+        <item>@string/easy_label</item>
+        <item>@string/medium_label</item>
+        <item>@string/hard_label</item>
+    </array>
+    
+      <array name="mode">
+        <item>@string/timed_label</item>
+        <item>@string/relaxed_label</item>
+    </array>
+    
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">Archer fish settings...</string>
+    <string name="settings_shortcut">s...</string>
+    <string name="music_title">Music...</string>
+    <string name="music_summary">Play background music...</string>
+    <string name="hello">Hello World, ArcherFish1Activity!</string>
+    
+    <string name="new_game_title">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    
+    <string name="mode_title">Mode</string>
+    <string name="timed_label">Timed</string>
+    <string name="relaxed_label">Relaxed</string>
+    
+    
+    <string name="about_text">\
+        <i>Archer Fish</i> Archer fish is a game that simulates shooting 
+        skills of archer fish. The objective of the game
+         is to aim and shoot at prey , which then falls in to water
+          and has to be eaten by the fish. </string>
+       <string name="instruction_text">\
+           Aim at the insects and shoot with water droplets,
+            making the insect to slip from its position and drop in to water. 
+           Then the fish has to feed the insect fallen in to water. 
+1.	An archer fish roaming in water at the bottom of screen
+2.	The fish can shoot water droplets with different thickness at heights.
+3.	Insects having different level of grip on the branches,twigs, grass leaves.
+4.	Insects may be crawling. When they fall into water, may fly away after some durations.
+           </string>
+    <string name="app_name">ArcherFish1</string>
+     <string name="mode_prompt">Timed</string>
+    <string-array name="mode_array">
+        <item>Timed</item>
+        <item>Relaxed</item>
+    </string-array>
+ <string name="diff_prompt">Timed</string>
+    <string-array name="diff_array">
+        <item>Easy</item>
+        <item>Difficult</item>
+    </string-array>
+     <string name="music_prompt">Timed</string>
+    <string-array name="music_array">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+     <string name="sfx_prompt">Timed</string>
+    <string-array name="sfx_array">
+        <item>On</item>
+        <item>Off</item>
+    </string-array>
+    
+    
+</resources>

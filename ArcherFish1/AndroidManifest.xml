@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.ex"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".ArcherFish1Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+             android:name=".play1">
+
+        </activity>
+        
+         <activity
+             android:name=".SetTopics">
+
+        </activity>
+         <activity
+             android:name=".Difficulty">
+
+        </activity>
+                 <activity
+             android:name=".Mode">
+
+        </activity>
+        
+                         
+        <activity
+             android:name=".ProfileData">
+
+        </activity>
+        <activity
+             android:name=".SaveData">
+
+        </activity>
+        
+         <activity
+             android:name=".CheckData">
+
+        </activity>
+         
+         <activity
+             android:name=".Prefs">
+
+        </activity>
+         
+        <activity 
+            android:name=".l1Compl">
+            
+        </activity>
+                <activity 
+            android:name=".Pause">
+            
+        </activity>
+        
+        <activity android:name=".l1Fail"></activity>
+        
+          <activity
+             android:name=".play2">
+
+        </activity>
+                  <activity
+             android:name=".play2Level2">
+
+        </activity>
+                  <activity
+             android:name=".play2Level3">
+
+        </activity>
+         
+                 <activity
+             android:name=".About"
+             android:theme="@android:style/Theme.Dialog">
+
+        </activity>
+        
+        <activity
+             android:name=".Instruction"
+             android:theme="@android:style/Theme.Dialog">
+
+        </activity>
+         
+                  <activity
+             android:name=".play"
+             android:label="Archer Fish running . . .">
+
+        </activity>
+                          <activity
+             android:name=".Setting"
+             android:label="Settings">
+
+        </activity>
+        
+    </application>
+
+</manifest>
